@@ -3,7 +3,7 @@ body {
 }
 h1 {
     display: inline-block;
-    font-weight: 300;
+    font-weight: bold;
     margin: 0 32px 0 0;
 }
 .links {
@@ -26,4 +26,48 @@ h1 {
 }
 a.active {
     border-bottom: 1px solid black;
+}
+.card {
+    width: 49.75%;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 16px;
+}
+.card img {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+.card h2 {
+    display: inline-block;
+    margin: 8px 0 16px 0;
+    font-weight: 300;
+}
+.menu {
+    padding: ;
+}
+h3 {
+    font-size: 40px;
+    font-weight: 300;
+}
+.about {
+    width: 40%;
+    min-width: 600px;
+    margin: 100px 0 100px 200px;
+}
+.contact {
+    margin-top: 100px;
+}
+.contact p {
+    margin: 0;
+    font-size: 20px;
+}
+.work {
+    border-bottom: 1px solid black;
+    display: inline-block;
+    padding-bottom: 8px;
+    margin-top: 0;
+}
+.card img:hover {
+    opacity: 0.7;
 }
